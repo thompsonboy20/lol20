@@ -1,0 +1,10 @@
+function MessageHandler(context, event) {
+            context.console.log("test")
+            if(event.message.toLowerCase() == "hi") {
+                context.sendResponse("hello");
+            }
+            else if(event.message.toLowerCase() == "hello") {
+                context.sendResponse("Hey there "+" Do you prefer reading Wired or Techcrunch?");
+    
+            }
+}

@@ -1,0 +1,2 @@
+If msg == "hello":
+    Print("hi how are you)
